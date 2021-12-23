@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header .logo{
+    width: 40px;
+    height: 40px;
+}
+.menu-bar{
+    background:  #264d73;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style:none;
+    color: whitesmoke;
+}
+.menu-bar ul li{
+    width: 130px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.active,.menu-bar ul li:hover{
+    border-radius: 5px;
+    background:#006699;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position:absolute;
+    background:   #24478f;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted whitesmoke;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: black;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 100px;
+    background:#24478f;
+}
+.logo{
+    margin-right: 50px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.slide_inner{
+    min-height: 80vh;
+    position:static;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+}
+.slide_holder .slide_inner{
+    background: url(./foto/j2.jpg) center/cover no-repeat;
+}
+.slide_holder:nth-child(2) .slide_inner{
+    background: url(./foto/zipline.jpg) center/cover no-repeat;
+}
+.slide_holder:nth-child(3) .slide_inner{
+    background: url(./foto/bateti.jpg) center/cover no-repeat;
+}
+.slide_holder:nth-child(4) .slide_inner{
+    background: url(./foto/jvari.jpg) center/cover no-repeat;
+}
+.slide_content{
+    max-width: 450px;
+    width: 100%;
+    background: rgb(255 255 255 / 70%);
+    padding: 30px;
+    position:static;
+    border-radius: 5px ;
+}
+.slide_holder{
+    padding: 15px;
+}
+h2 p{
+    font-family: "ALK Life", sans-serif;
+
+}
+
