@@ -1,0 +1,22 @@
+body{
+    background: lightseagreen;
+}
+.container{
+    margin: 0;
+    width: 50%;
+}
+img{
+   float: left;
+    width: 400px;
+    height: 400px;
+    padding: 0 10px 0 0;
+}
+.text{
+    text-align: justify;
+    font-family: Verdana;
+    color:rgb(31, 11, 0);
+}
+p{
+   position: absolute;
+   margin-top: 50px;
+}

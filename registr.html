@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <title>შესვლა</title>
+    <link rel="stylesheet" href="registr.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">შესვლა</button>
+                <button type="button" class="toggle-btn" onclick="register()">რეგისტრაცია</button>
+            </div>
+            <div class="social-icons">
+                <img src="./foto/facebook.png">
+                <img src="./foto/instagram.png">
+                <img src="./foto/google.png">
+            </div>
+            <form id="login" class="inpt-group">
+                <input type="text" class="input-field" placeholder="მომხმარებლის სახელი" required>
+                <input type="text" class="input-field" placeholder="მომხმარებლის პაროლი" required>
+                <input type="checkbox" class="chech-box"><span>პაროლის დამახსოვრება</span>
+                <button type="submit" class="submit-btn">შესვლა</button>
+            </form>
+            <form id="register" class="inpt-group">
+                <input type="text" class="input-field" placeholder="მომხმარებლის სახელი" required>
+                <input type="text" class="input-field" placeholder="მომხმარებლის მეილი" required>
+                <input type="text" class="input-field" placeholder=" პაროლი" required>
+                <input type="text" class="input-field" placeholder="გაიმეორეთ პაროლი" required>
+                <input type="checkbox" class="chech-box"><span>ვეთანხმები </span>
+                <button type="submit" class="submit-btn">რეგისტრაცია</button>
+            </form>
+        </div>
+    </div>  
+    <script>
+        var x =document.getElementById("login");
+        var y =document.getElementById("register");
+        var z =document.getElementById("btn");
+        function register(){
+            x.style.left ="-400px";
+            y.style.left ="50px";
+            z.style.left ="110px";
+        }
+        function login(){
+            x.style.left ="50px"
+            y.style.left ="450px"
+            z.style.left ="0"
+        }
+    </script>
+</body>
+</html>

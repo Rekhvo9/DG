@@ -18,7 +18,7 @@ header .logo{
 .menu-bar ul li{
     width: 130px;
     margin: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 .menu-bar ul li a{
     text-decoration: none;
@@ -110,6 +110,5 @@ header .logo{
 }
 h2 p{
     font-family: "ALK Life", sans-serif;
-
 }
 
